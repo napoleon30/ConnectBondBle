@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">蓝牙摄像头遥控器</string>
+    <string name="filter_vcode">0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ</string>
+</resources>

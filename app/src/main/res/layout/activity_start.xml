@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context="cn.sharelink.yiluoble.StartActivity">
+
+    <LinearLayout
+        android:id="@+id/ll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="30dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/lable"
+            android:layout_width="250dp"
+            android:layout_height="0dp"
+            android:layout_weight="6"
+            android:background="@mipmap/label" />
+
+        <ImageView
+            android:id="@+id/company"
+            android:layout_width="280dp"
+            android:layout_height="0dp"
+            android:layout_marginBottom="20dp"
+            android:layout_weight="4"
+            android:background="@mipmap/company" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <TextView
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginRight="10dp"
+                android:textSize="18sp"
+                android:textColor="@android:color/black"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="V 1.8" />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>
